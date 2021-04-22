@@ -87,7 +87,7 @@ def main():
     model, optimizer = create_model(env)
     bl_model, bl_optimizer = create_bl_model(env)
     gamma = 0.99
-    episodes = 1000
+    episodes = 500
     rewards = []
 
     for episode in range(episodes):

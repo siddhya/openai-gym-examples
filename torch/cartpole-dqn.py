@@ -99,7 +99,7 @@ def main():
     gamma = 0.90
     epsilon = 0.2
     eps_decay = 0.99
-    episodes = 150
+    episodes = 500
     rewards = []
     replay_buf = []
 
